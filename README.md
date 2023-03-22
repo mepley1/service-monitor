@@ -1,7 +1,10 @@
 # service-monitor
-A simple service monitoring script, to run as a cron job.
+A simple monitor script for systemd-controlled services. 
 
-To run it every 5 minutes, add a cron job like:
+To run it every 5 minutes, add a cron job:
+
 `sudo su`
+
 `crontab -e`
-`*/10 * * * * ~/service-monitor.sh`
+
+Then in nano/vi, add: `*/5 * * * * ~/service-monitor.sh`
