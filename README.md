@@ -1,11 +1,11 @@
 # service-monitor
 A simple monitor script for systemd-controlled services. 
-Accepts one argument, the name of a service unit. 
+Requires one argument, the name of a service unit. 
 
-To run once:
+First, run once to test permissions before creating a cron job:
 `./service-monitor.sh <service>` i.e. `./service-monitor.sh mysql`
 
-For best results run it as a cron job: (need root's crontab so it can restart services)
+For best results run it as a cron job: (either as root or a user with permissions to restart whatever service)
 
 `sudo su`
 
