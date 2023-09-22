@@ -4,7 +4,7 @@ Requires one argument, the name of a service unit.
 
 ## Usage
 
-Run once
+Run once:
 
 `./service-monitor.sh <service>` i.e. `./service-monitor.sh mysql`
 
