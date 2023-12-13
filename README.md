@@ -1,6 +1,7 @@
 # service-monitor
 A simple monitor script for systemd-controlled services. Checks for a non-zero exit code (meaning the targeted service has failed) and if so, restarts the service unit. 
 Requires one argument, the name of a service unit. 
+I originally ran it as a more concise one-liner in crontab, but I decided to copy it as an if block so I can add a few more things.
 
 ## Usage
 
